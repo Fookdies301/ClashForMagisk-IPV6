@@ -2,10 +2,11 @@
 
 # Proxy mode
 # proxy setup script in mode.d/{mode}
-# 
-# bulti-in mode 
-#  - redirect 
+#
+# bulti-in mode
+#  - redirect
 #  - proxy-only
+#  - dns
 #
 
 mode: "redirect"
