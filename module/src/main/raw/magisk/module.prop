@@ -1,6 +1,6 @@
 id=clash_for_magisk
-name=Clash for Magisk
+name=Clash for Magisk IPV6
 version=%%VERSION%%
 versionCode=%%VERSIONCODE%%
-author=Dreamacro (module by Kr328)
-description=A rule-based tunnel in Go.
+author=Dreamacro (IPV6 redir by yuguorui) (module by Kr328, IPV6 by h_cheung)
+description=A rule-based tunnel in Go, experiment support for IPV6.

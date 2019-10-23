@@ -1,6 +1,6 @@
 # Clash for Magisk IPV6
 
-*this is a highly experimental version, use it at your own risk!*
+*this is a highly experimental version, moded mainly for my own use. You con use it at your own risk!*
 
 this is based on Kr328's [Clash for Magisk](https://github.com/Kr328/ClashForMagisk).
 
