@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Build:
-#   - git clone -b dev https://github.com/Dreamacro/clash
+#   - git clone dev https://github.com/Howard-00/clash
 #   - cd clash
 #   - ANDROID_NDK=/path/to/android/ndk /path/to/this/script
 #
@@ -32,11 +32,11 @@ export CC=$ANDROID_CC
 export LD=$ANDROID_LD
 export CGO_ENABLED=1
 
-git clone "https://github.com/yuguorui/clash" clash-build
+git clone "https://github.com/Howard-00/clash" clash-build
 
 cd clash-build
 
 git pull
 
-exec go build -ldflags "-X \"github.com/Dreamacro/clash/constant.Version=$VERSION\" -X \"github.com/Dreamacro/clash/constant.BuildTime=$BUILDTIME\" -w -s" \
+exec go build -ldflags "-X \"github.com/Howard-00/clash/constant.Version=$VERSION\" -X \"github.com/Howard-00/clash/constant.BuildTime=$BUILDTIME\" -w -s" \
             -o "$OUTPUT"
